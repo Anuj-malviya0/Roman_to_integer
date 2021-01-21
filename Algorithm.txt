@@ -1,0 +1,7 @@
+Algorithm to convert Roman Numerals to Integer Number:  
+
+Split the Roman Numeral string into Roman Symbols (character).
+Convert each symbol of Roman Numerals into the value it represents.
+Take symbol one by one from starting from index 0: 
+Then add value of symbol to the running total.
+subtract value multipled by 2 if current value of symbol is smaller than the value of next symbol.
